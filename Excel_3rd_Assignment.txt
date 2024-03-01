@@ -1,0 +1,48 @@
+1. How and when to use the AutoSum command in excel?
+---> AutoSum command in Excel to quickly calculate the sum of a range of numbers. It's handy when you want to add up a
+  series of values without typing out the formula manually.
+To use AutoSum:
+ .Select the cell where you want the sum to appear.
+ .Click on the AutoSum button in the Editing group on the Home tab.
+ .Excel will automatically suggest a range for the sum based on nearby numbers. You can adjust the range if needed.
+ .Press Enter to apply the sum.
+ .AutoSum is particularly useful when you have a column or row of numbers that you want to add up quickly without writing
+  a formula.
+
+
+2. What is the shortcut key to perform AutoSum?
+---> Alt + = will automatically insert the SUM function and suggest a range of adjacent cells for the sum. You can then
+  press Enter to apply the sum.
+
+
+3. How do you get rid of Formula that omits adjacent cells?
+---> To get rid of a formula that omits adjacent cells in Excel:
+.Select the cell containing the formula.
+.Press the Delete key on your keyboard.
+.This will remove the formula from the selected cell, allowing you to start fresh or input a new formula.
+
+
+4. How do you select non-adjacent cells in Excel 2016?
+---> To select non-adjacent cells in Excel 2016:
+ .Click on the first cell you want to select.
+ .Hold down the Ctrl key on your keyboard.
+ .While holding Ctrl, click on each additional cell you want to include in the selection.
+ This will allow you to select multiple cells that are not next to each other.
+
+
+5. What happens if you choose a column, hold down the Alt key and press the letters
+ocw in quick succession?
+---> In Excel, if you choose a column, hold down the Alt key, and press the letters "ocw" in quick succession, it 
+ automatically resizes the column to fit the widest cell content in that column. This keyboard shortcut is a quick way 
+ to adjust the width of a column to best fit its contents.
+
+
+6. If you right-click on a row reference number and click on Insert, where will the row
+be added?
+---> If you right-click on a row reference number (e.g., "1", "2", "3", etc.) in Excel and click on "Insert", 
+the new row will be inserted above the row you right-clicked on. In other words, the row will be added immediately above
+ the selected row reference number.
+
+
+
+

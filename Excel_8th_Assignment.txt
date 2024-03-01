@@ -1,0 +1,59 @@
+1. What do you mean by AutoComplete feature in Excel and what are the
+benefits of using this feature?
+---> The AutoComplete feature in Excel predicts and suggests entries based on previously entered values or patterns.
+    Benefits include: 
+. Faster data entry by reducing manual typing.
+. Accuracy improvements by minimizing typographical errors.
+. Efficiency gains when working with repetitive data sets.
+. Enhanced productivity due to reduced need for manual data input.
+
+
+2. Explain working with workbooks and working with cells.
+---> Working with workbooks involves tasks such as creating, opening, saving, and closing Excel files. 
+ You can organize your data into different workbooks for better management and organization. Working with cells 
+ involves tasks such as entering data, formatting cells, applying formulas and functions, and navigating within the 
+ worksheet. You can select, copy, paste, and edit cell contents to manipulate data as needed. Additionally, you can 
+ apply various formatting options to cells to enhance the presentation and readability of your data.
+
+
+3. What is fill handle in Excel and why do we use it?
+--->The fill handle in Excel is a small square at the bottom-right corner of a selected cell or range. 
+ It allows users to quickly fill adjacent cells with data or formulas based on the existing content. We use it to save 
+ time and effort by automatically copying and filling data or formulas into adjacent cells, thus avoiding manual entry 
+ for repetitive patterns or sequences.
+
+
+4. Give some examples of using the fill handle.
+--->
+. Copying Values: Enter a value into a cell, then click and drag the fill handle across adjacent cells to copy the value 
+ into those cells.
+
+. Filling Series: Enter a value into a cell, then click and drag the fill handle to create a series
+  (e.g., numbers, dates, months) in adjacent cells.
+
+. Copying Formulas: Enter a formula into a cell, then click and drag the fill handle across adjacent cells to copy 
+ the formula and automatically adjust cell references.
+
+
+
+5. Describe flash fill and what the different ways to access the flash fill are.
+---> Flash Fill is a feature in Excel that automatically fills in values based on patterns it recognizes in adjacent cells.
+    It's useful for quickly formatting data without having to write complex formulas.
+ Different ways to access Flash Fill:
+. Using the Ribbon: Go to the "Data" tab on the ribbon, then click on "Flash Fill" in the "Data Tools" group.
+. Keyboard Shortcut: Press "Ctrl + E" to activate Flash Fill.
+. Auto Fill Options: After manually filling in a pattern, a small square box appears in the bottom-right corner of the
+  selected cell. Clicking on this box gives options to apply Flash Fill.
+. Right-Click Menu: Right-click on the cell where you want to apply Flash Fill, then select "Flash Fill" from the context 
+  menu.
+
+
+6. Extract first name and last name from the mail id and then from the
+address column, extract the city, state, and pin code using the flash fill.
+Given below is an example of the columns you have to create. Paste the
+screenshot of what you have created using the flash fill command.
+Example: Mail Id, Address, First name, Last name, State, City, Pincode
+--->
+ To extract information using Flash Fill in Excel:
+ For first name and last name from email: Manually input initial data, then use Flash Fill to automatically extract.
+ For city, state, and pin code from address: Same process—manually input initial data, then use Flash Fill to auto-extract.

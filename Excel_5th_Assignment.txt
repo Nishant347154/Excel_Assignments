@@ -1,0 +1,39 @@
+1. How many types of conditions are available in conditional formatting on Excel?
+---> There are three main types of conditions available in conditional formatting in Excel:
+ .Cell Value: Formatting is based on the cell's value, such as greater than, less than, equal to, etc.
+ .Formula: Formatting is applied based on a formula you specify.
+ .Specific Text: Formatting is applied based on specific text contained within the cell.
+
+
+2. How to insert border in Excel with Format Cells dialog?
+--->To insert a border in Excel using the Format Cells dialog:
+ .Select the cells you want to add borders to.
+ .Right-click and choose "Format Cells" from the context menu, or press Ctrl + 1 to open the Format Cells dialog.
+ .In the Format Cells dialog, go to the "Border" tab.
+ .Choose the border style you want under the "Line Style" section.
+ .Select the borders you want to apply (e.g., top, bottom, left, right).
+ .Click "OK" to apply the border settings to the selected cells.
+
+
+3. How to Format Numbers as Currency in Excel?
+---> To format numbers as currency in Excel:
+ .Select cells.
+ .Go to "Home" tab.
+ .Click on "Currency" from the Number Format dropdown.
+
+4. What are the steps to format numbers in Excel with the Percent style?
+--->To format numbers as percentages in Excel:
+ .Select cells.
+ .Go to "Home" tab.
+ .Click on "Percentage" from the Number Format dropdown.
+
+
+5. What is a shortcut to merge two or more cells in excel?
+---> Select the cells you want to merge.thenPress Alt + H + M to merge the cells.
+
+
+6. How do you use text commands in Excel?
+---> To use text commands in Excel:
+ Utilize functions or formulas.
+ Common functions include CONCATENATE, LEFT, RIGHT, MID, LEN, TRIM, UPPER, LOWER, and PROPER.
+ These functions manipulate text data for formatting, extraction, and manipulation purposes.

@@ -1,0 +1,58 @@
+1. What do you mean by cells in an excel sheet?
+---> In Excel, a cell is a single rectangular box identified by a unique combination of a column letter and a row number.
+ It can contain data, formulas, formatting settings, and more. Cells are the basic units of a spreadsheet.
+
+
+2. How can you restrict someone from copying a cell from your worksheet?
+---> To restrict someone from copying a cell in Excel:
+.Unlock the cell(s) you want to restrict.
+.Protect the worksheet and disable the option to select locked cells.
+.Optionally, hide the formula bar to prevent copying through viewing formulas.
+
+
+3. How to move or copy the worksheet into another workbook?
+---> To move or copy a worksheet into another workbook in Excel follow these steps:
+
+>.Open both the source workbook (the one containing the worksheet you want to move or copy) and the destination
+ workbook (where you want to move or copy the worksheet).
+
+>In the source workbook, right-click on the worksheet tab at the bottom of the Excel window.
+
+>Choose the "Move or Copy" option from the context menu.
+
+>In the "Move or Copy" dialog box, select the workbook where you want to move or copy the worksheet from the "To book"
+ drop-down menu.
+
+>Choose whether you want to create a copy of the worksheet or move it to the destination workbook.
+
+>Optionally, specify the location within the destination workbook where you want to place the worksheet by selecting a 
+sheet from the list of existing sheets in the destination workbook.
+
+>Click "OK" to move or copy the worksheet to the destination workbook.
+
+This process allows you to transfer worksheets between different workbooks in Excel.
+
+
+4. Which key is used as a shortcut for opening a new window document?
+--->  "Ctrl + N"
+
+
+5. What are the things that we can notice after opening the Excel interface?
+---> After opening the Excel interface notice:
+
+Ribbon: The Ribbon contains tabs, each with groups of related commands for working with spreadsheets.
+
+Worksheet: The main area where you can enter and manipulate data. It consists of rows and columns, forming cells.
+
+Formula Bar: Displays the contents of the currently selected cell and allows you to edit its contents.
+
+Status Bar: Provides information about the current state of Excel, such as cell mode and calculation status.
+
+Quick Access Toolbar: Contains shortcuts to frequently used commands.
+
+Name Box: Displays the name of the selected cell or range of cells.
+
+
+6. When to use a relative cell reference in excel?
+---> Use a relative cell reference in Excel when you want a formula to adjust its references based on the position
+ of the formula cell. This means that when you copy the formula to other cells, the references will change relative to the new cell's position.

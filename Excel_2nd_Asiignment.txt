@@ -1,0 +1,75 @@
+1. What does the dollar($) sign do?
+---> In Excel, the dollar sign ($) is used to create an absolute cell reference or an absolute range reference.
+ When you place a dollar sign before the column letter or row number in a cell reference, it indicates that the 
+column letter or row number should not change when the formula is copied to other cells.
+
+For example:
+
+ $A$1: This is an absolute cell reference. Both the column letter (A) and the row number (1) are fixed. If you copy the 
+      formula containing this reference to other cells, it will always refer to cell A1.
+ $A1: This is a mixed cell reference where only the column letter is absolute. If you copy the formula containing this 
+     reference across columns, the column letter (A) will remain fixed, but the row number will change.
+ A$1: This is another mixed cell reference where only the row number is absolute. If you copy the formula containing this
+    reference down rows, the row number (1) will remain fixed, but the column letter will change.
+In summary, the dollar sign ($) in Excel is used to anchor specific parts of a cell reference (either the column letter,
+ row number, or both) to prevent them from changing when the formula is copied to other cells.
+
+
+2. How to Change the Reference from Relative to Absolute (or Mixed)?
+---> To change a cell reference from relative to absolute (or mixed) in Excel:
+.Select the cell reference in the formula.
+.Press the F4 key to toggle between relative, absolute, and mixed references.
+
+
+3. Explain the order of operations in excel?
+---> In Excel, the order of operations follows the acronym PEMDAS:
+ Parentheses: Excel evaluates expressions inside parentheses first.
+ Exponents: Excel calculates exponentiation (raising a number to a power) next.
+ Multiplication and Division: Excel performs multiplication and division from left to right.
+ Addition and Subtraction: Excel adds and subtracts from left to right.
+ This order ensures that formulas are calculated correctly according to mathematical rules.
+
+
+4. What, according to you, are the top 5 functions in excel and write a basic syntax
+for any of two?
+---> The top 5 functions in Excel, based on their frequent usage and versatility, are:
+
+ SUM: Adds up all the numbers in a range.
+ Syntax: =SUM(number1, [number2], ...)
+
+ IF: Performs a conditional test and returns one value if the condition is true and another value if the condition 
+ is false.
+ Syntax: =IF(logical_test, value_if_true, [value_if_false])
+
+ VLOOKUP: Searches for a value in the first column of a table array and returns a value in the same row from another 
+ column (vertical lookup).
+ Syntax: =VLOOKUP(lookup_value, table_array, col_index_num, [range_lookup])
+
+ CONCATENATE: Joins several text strings into one string.
+ Syntax: =CONCATENATE(text1, [text2], ...)
+
+ AVERAGE: Calculates the average of numbers in a range.
+ Syntax: =AVERAGE(number1, [number2], ...)
+
+
+5. When would you use the subtotal function?
+---> You would use the SUBTOTAL function in Excel when you want to perform calculations on a range of data while
+  excluding other SUBTOTAL and manually hidden rows. It's commonly used for calculations in filtered data sets
+  or when working with subtotal rows in structured data.
+
+
+6. What is the syntax of the vlookup function? Explain the terms in it?
+---> 
+ Syntax : =VLOOKUP(lookup_value, table_array, col_index_num, [range_lookup])
+ lookup_value: This is the value you want to search for in the first column of the table_array. It can be a value,
+  reference, or a cell reference.
+
+ table_array: This is the table of data in which you want to perform the lookup. It must include the column from which
+  you want to return a value, and it can be a range reference or an array.
+
+ col_index_num: This is the column number in the table_array from which you want to retrieve the value. The first column
+  in the table_array is numbered as 1, the second column as 2, and so on.
+
+ range_lookup (optional): This parameter specifies whether you want an exact match or an approximate match. If TRUE or
+  omitted, VLOOKUP will search for the closest match (an approximate match). If FALSE, VLOOKUP will only return an exact
+  match.

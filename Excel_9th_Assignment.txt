@@ -1,0 +1,55 @@
+1. What are the different margins options and do we adjust the margins of
+the excel worksheet?
+--->In Excel, the different margin options include:
+. Top Margin
+. Bottom Margin
+. Left Margin
+. Right Margin
+. Header Margin
+. Footer Margin
+ Yes, we can adjust the margins of an Excel worksheet by going to the Page Layout tab, clicking on the Margins drop-down
+ menu, and selecting Custom Margins. From there, we can specify the desired margin values for each option.
+
+2. Set a background for your table created.
+---> To set a background for a table in Excel:
+. Select the table.
+. Go to the "Page Layout" tab.
+. Click on "Background" in the "Page Setup" group.
+. Choose the desired background color or image.
+ Alternatively, you can also right-click on the table, select "Format Cells," go to the "Fill" tab, and choose
+ a background color.
+
+
+3. What is freeze panes and why do we use freeze panes? Give
+examples.
+---> Freeze panes is a feature in Excel used to keep specific rows or columns visible while scrolling through large
+  sets of data. We use freeze panes to ensure that important headers or labels remain visible at all times, providing
+  context and reference points while navigating through the spreadsheet.
+
+ For example:
+ If you have a large dataset with column headers at the top, you can freeze the top row to keep those headers visible
+ while scrolling down.
+ Similarly, if you have a table with row headers on the left, you can freeze the leftmost column to keep those row labels
+ visible while scrolling horizontally.
+
+
+
+
+4. What are the different features available within the Freeze Panes
+command?
+---> The Freeze Panes command in Excel allows you to freeze specific rows or columns to keep them visible while scrolling
+  through large datasets. It includes options to freeze the top row, first column, or a specific row and column.
+
+
+5. Explain what the different sheet options present in excel are and what
+they do?
+---> 
+. Insert Sheet: Adds a new worksheet to the workbook.
+. Delete Sheet: Removes the selected worksheet from the workbook.
+. Rename Sheet: Allows you to change the name of the selected worksheet.
+. Move or Copy Sheet: Moves or copies the selected worksheet to another location within the workbook or to another 
+  workbook.
+. Protect Sheet: Allows you to protect the contents of the worksheet by restricting editing, formatting, or other changes.
+. Hide Sheet: Conceals the selected worksheet from view.
+. Unhide Sheet: Reveals a previously hidden worksheet.
+. Tab Color: Changes the color of the worksheet tab for easy identification or organization.
