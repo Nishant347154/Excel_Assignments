@@ -1,0 +1,69 @@
+1. What are comments and what is the importance if commenting in any
+code?
+---> Comments in Excel, like in any code, are essential non-executable lines that provide explanations, context, and
+ documentation within the code. They enhance readability, aid in troubleshooting, facilitate collaboration, assist in 
+ understanding code logic, and serve as valuable resources for maintenance and learning.
+
+
+2. What is Call Statement and when do you use this statement?
+---> The Call statement in VBA is used to invoke a procedure or subroutine. It's optional and can be omitted when calling 
+  a procedure. You use the Call statement when you want to explicitly indicate that you're calling a procedure, which can
+   make the code more readable and understandable, especially in certain contexts or for clarity when passing arguments.
+   However, it's not commonly used in modern VBA programming, as calling procedures without Call is the standard practice.
+
+
+3. How do you compile a code in VBA? What are some of the problem thatyou might face when you don’t compile a code?
+---> Compiling VBA code in the VBA editor automatically checks for syntax errors and ensures code correctness. Without 
+ compilation, you risk encountering syntax errors, runtime issues, performance degradation, debugging challenges, and 
+ reduced code maintainability.
+
+
+4. What are hot keys in VBA? How can you create your own hot keys?
+---> Hotkeys in VBA are keyboard shortcuts that allow quick execution of commands. You can create your own hotkeys using 
+ the Application.OnKey method in VBA. This method assigns a keyboard shortcut to a specific VBA procedure, streamlining
+ workflow and improving efficiency.
+
+
+5. Create a macro and shortcut key to find the square root of the followingnumbers 665, 89, 72, 86, 48, 32, 569, 7521
+---> To create a macro in Excel VBA to find the square root of the given numbers and assign a shortcut key to it, follow
+   these steps:
+
+ 1. Open Excel and press Alt + F11 to open the VBA editor.
+ 2 .Go to Insert > Module to insert a new module.
+ 3 .Copy and paste the following VBA code into the module:
+
+Sub FindSquareRoot()
+    Dim numbers() As Variant
+    Dim i As Integer
+
+    ' Define the numbers
+    numbers = Array(665, 89, 72, 86, 48, 32, 569, 7521)
+
+    ' Find and display the square root of each number
+    For i = LBound(numbers) To UBound(numbers)
+        MsgBox "Square root of " & numbers(i) & " is " & Sqr(numbers(i))
+    Next i
+End Sub
+
+
+Close the VBA editor.
+. To assign a shortcut key:
+.Go to the "View" tab in Excel.
+. click on "Macros" in the "Macros" group.
+.Select "View Macros" from the dropdown menu.
+.Choose the "FindSquareRoot" macro and click "Options..."
+. In the "Shortcut key" field, type the desired shortcut key combination (e.g., Ctrl + Shift + R).
+. Click "OK" to close the dialog boxes.
+. Now, whenever you press the assigned shortcut key combination (e.g., Ctrl + Shift + R), Excel will execute the macro,
+. and a message box will display the square root of each of the given numbers.
+
+6. What are the shortcut keys used to
+a. Run the code
+b. Step into the code
+c. Step out of code
+d. Reset the code
+---> Here are the shortcut keys commonly used in the VBA editor:
+ a. Run the code: F5
+ b. Step into the code: F8
+ c. Step out of code: Shift + F8
+ d. Reset the code: Ctrl + Break
