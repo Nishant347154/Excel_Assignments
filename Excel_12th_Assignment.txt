@@ -1,0 +1,20 @@
+1. What is the total amount of stationary bought from Madhya Pradesh?
+---> There are Total 42 Stationary Products Bought From Madhya Pradesh
+ FORMULA  =COUNTIFS(C2:C187,"Stationary",F2:F187,"Madhya Pradesh")
+
+2. What is the total count of stationary bought from Tamilnadu?
+--->  There are Total 13 Stationary Products Bought From Madhya Pradesh
+ FORMULA =COUNTIFS(C2:C187,"Stationary",F2:F187,"Tamilnadu")
+
+3. What is the total amount spent on footwear?
+---> Total amount spent on footwear is RS.194226
+FROMULA = =SUMIF(C2:C187,"Footwear",G2:G187)
+
+4. What is the total amount of money spent for stationary in July?
+---> Money spent on Stationary in Month of July is RS. 53398
+FORMULA - =SUMIFS(H2:H187,C2:C187,"Stationary",I2:I187,"7")
+
+
+5. What is the count of footwear that is coming from Delhi?
+---> Footwear count from delhi is 2 
+FORMULA - =COUNTIFS(C2:C187,"Footwear",G2:G187,"Delhi")
